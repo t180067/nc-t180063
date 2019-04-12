@@ -2,7 +2,7 @@
 
 int f(int x)
 {
-  return x*x; /* ここを埋める */ ;
+  return x*x;
 }
 
 int main ()

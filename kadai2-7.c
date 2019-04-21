@@ -1,14 +1,14 @@
 #include<stdio.h>
 	
- long long fac (long long n)
+ long long fac (int n)
 {
   return (n == 0) ? 1 : n*fac(n-1);
 }
 
  int main ()
 {
-  long long i;
+  int i;
   for (i = 1; i <= 16; i++) {
-    printf("%2lld! = %lld\n", i, fac(i));
+    printf("%2d! = %d\n", i, fac(i));
   }
 }

@@ -8,8 +8,10 @@ int main ()
   
   while (1) {
     i = i*2;
-    printf("%d\n", i);
-    if ( i < 0 ) break;
+    if ( i < 0 ){
+      printf("%d\n",i-1);
+      break;
+    }
   }
 
 }

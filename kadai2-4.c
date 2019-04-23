@@ -7,11 +7,10 @@ int main ()
   /* 以下に適当な変更を加えよ */
   
   while (1) {
-    i = i*2;
-    if ( i < 0 ){
-      printf("%d\n",i-1);
+    i = i+1;
+    printf("%d\n",i);
+    if ( i < 0 )
       break;
-    }
   }
 
 }

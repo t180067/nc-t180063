@@ -7,7 +7,7 @@ int main ()
   while (1) {
     i = i*2;
     if ( i < 0 ){
-      printf("%lld\n",i-1);
+      printf("%lld\n",-(i+1);
       break;
     }
   }

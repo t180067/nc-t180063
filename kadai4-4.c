@@ -1,16 +1,15 @@
 #include<stdio.h>
 
 int main(){
-    double a0=1.0,s=0;
+    double a=1,sum=0;
     int i,N;
-    printf("正の整数を入力");
+    printf("正の整数を入力:");
     scanf("%d",&N);
 
     for(i=0; i<=N; i++){
-        s+=a0;
-        printf("S%d=%f\n",i,s);
-         a0*=0.5;
+        sum+=a;
+        printf("S%d=%f\n",i,sum);
+        a=a/2.0;
 
     }
 }
-

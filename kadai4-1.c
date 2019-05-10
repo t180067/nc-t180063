@@ -5,9 +5,9 @@ int main(){
     printf("正の整数を入力");
     scanf("%d",&N);
 
-    for(i=0; i<N; i++){
-        a0=a0+2;
-        printf("%d\n",a0);
+    for(i=0; i<=N; i++){
+        printf("a%d=%d\n",i,a0);
+         a0=a0+2;
 
     }
 }
